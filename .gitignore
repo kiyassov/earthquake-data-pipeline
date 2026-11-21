@@ -1,0 +1,19 @@
+# Секреты: настоящий .env никогда не коммитим, шаблон .env.example коммитим.
+.env
+.env.*
+!.env.example
+
+# Логи Airflow, которые контейнеры пишут в ./logs
+logs/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# IDE и ОС
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
